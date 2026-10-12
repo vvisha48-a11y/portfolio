@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visha V — French Educator & EdTech Innovator | Portfolio</title>
+  <meta name="description" content="Portfolio of Visha V: French Teacher (CBSE Grades 8-10) at United Indian School Kuwait, Master's in French Translation & Interpretation (Pondicherry Univ), Université de Lille Alum, and Creator of French 10 EdTech platform.">
+  <meta name="keywords" content="Visha V, French Teacher, CBSE French, DELF B2, EdTech, French Portfolio, United Indian School Kuwait, Pondicherry University, Université de Lille">
+  <meta name="author" content="Visha V">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇫🇷</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Effects -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- French Tricolore Top Accent Bar -->
+  <div class="tricolore-bar" aria-hidden="true">
+    <div class="tricolore-blue"></div>
+    <div class="tricolore-white"></div>
+    <div class="tricolore-red"></div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Visha V Home">
+        <span class="brand-avatar-mini">
+          <img src="avatar.jpg" alt="Visha V" width="36" height="36">
+        </span>
+        <div class="brand-text">
+          <span class="brand-name">Visha V</span>
+          <span class="brand-subtitle" data-i18n="nav.subtitle">French Educator & EdTech</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#edtech" class="nav-link nav-highlight" data-i18n="nav.edtech">AI & EdTech ⚡</a>
+        <a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a>
+        <a href="#education" class="nav-link" data-i18n="nav.education">Education</a>
+        <a href="#certifications" class="nav-link" data-i18n="nav.certifications">Diplomas</a>
+        <a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <!-- Nav Action Controls -->
+      <div class="nav-actions">
+        <!-- Language Switcher (EN / FR) -->
+        <button id="langToggle" class="lang-toggle-btn" aria-label="Switch Language" title="Passer en Français / Switch to English">
+          <span class="lang-pill active" id="langEn">EN</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-pill" id="langFr">FR</span>
+        </button>
+
+        <!-- Theme Switcher (Dark / Light) -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle dark / light theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume Modal Trigger -->
+        <button id="cvModalBtn" class="btn-cv-nav" title="View & Print Official CV">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span data-i18n="nav.cv">Resume</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <!-- Live Status Pill -->
+        <div class="status-badge" id="statusBadge">
+          <span class="status-dot"></span>
+          <span class="status-text" data-i18n="hero.status">French Teacher at United Indian School, Kuwait (Grades 8, 9, 10 CBSE)</span>
+        </div>
+
+        <!-- Greeting & Sub-heading -->
+        <div class="hero-subheading">
+          <span class="flag-icon">🇫🇷</span>
+          <span class="subheading-accent" data-i18n="hero.badge">FLE Educator · Translator · EdTech Creator</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span data-i18n="hero.greeting">Bonjour, I'm</span>
+          <span class="name-gradient">Visha V</span>
+        </h1>
+
+        <!-- Animated Typing / Dynamic Role -->
+        <div class="dynamic-roles">
+          <span class="role-prefix" data-i18n="hero.rolePrefix">Specialized in</span>
+          <span class="role-text" id="dynamicRole">CBSE French Pedagogy (8th, 9th, 10th)</span>
+        </div>
+
+        <!-- Hero Description -->
+        <p class="hero-bio" data-i18n="hero.bio">
+          Passionate French educator and Master's graduate in Translation & Interpretation from Pondicherry University, with international study at Université de Lille, France. Certified DELF B2 (pursuing DALF C1). Integrating modern AI, interactive web apps, and customized digital tools into every lesson to empower CBSE students and ignite cultural curiosity.
+        </p>
+
+        <!-- Metric Badges Row -->
+        <div class="hero-pills">
+          <div class="metric-pill">
+            <span class="pill-icon">🎓</span>
+            <div>
+              <strong data-i18n="hero.pill1.val">M.A. French</strong>
+              <small data-i18n="hero.pill1.sub">Translation & FLE</small>
+            </div>
+          </div>
+          <div class="metric-pill">
+            <span class="pill-icon">🏛️</span>
+            <div>
+              <strong data-i18n="hero.pill2.val">Univ. de Lille</strong>
+              <small data-i18n="hero.pill2.sub">France Exchange</small>
+            </div>
+          </div>
+          <div class="metric-pill">
+            <span class="pill-icon">📜</span>
+            <div>
+              <strong data-i18n="hero.pill3.val">DELF B2</strong>
+              <small data-i18n="hero.pill3.sub">Pursuing DALF C1</small>
+            </div>
+          </div>
+          <div class="metric-pill highlight-pill">
+            <span class="pill-icon">⚡</span>
+            <div>
+              <strong data-i18n="hero.pill4.val">French10 App</strong>
+              <small data-i18n="hero.pill4.sub">Live EdTech Suite</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero CTAs -->
+        <div class="hero-actions">
+          <a href="#edtech" class="btn btn-primary" id="exploreEdtechBtn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <span data-i18n="hero.cta.edtech">Explore EdTech & AI Apps</span>
+          </a>
+          <a href="https://vvisha48-a11y.github.io/french10/docs/app.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span data-i18n="hero.cta.liveApp">Open Live French 10 App</span>
+          </a>
+          <a href="https://wa.me/916385544813" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" title="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.971.53 1.83.81 2.801.81 3.181 0 5.767-2.586 5.767-5.766.001-3.182-2.585-5.767-5.772-5.767zm0 10.354c-.87 0-1.684-.24-2.392-.676l-.171-.102-1.777.466.474-1.733-.112-.178c-.469-.747-.716-1.558-.716-2.365 0-2.529 2.057-4.587 4.587-4.587 2.531 0 4.589 2.058 4.589 4.587 0 2.53-2.058 4.588-4.589 4.588z"/>
+            </svg>
+            <span data-i18n="hero.cta.whatsapp">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Card with Avatar -->
+      <div class="hero-visual">
+        <div class="avatar-card-wrapper">
+          <div class="avatar-card-glow"></div>
+          <div class="avatar-card">
+            <div class="avatar-img-container">
+              <img src="avatar.jpg" alt="Visha V - French Teacher" class="avatar-photo" id="avatarPhoto">
+              <div class="avatar-ring"></div>
+            </div>
+
+            <div class="avatar-details">
+              <h2 class="card-name">Visha V</h2>
+              <p class="card-role" data-i18n="hero.card.role">Enseignant de Français (CBSE)</p>
+              <div class="card-location">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span data-i18n="hero.card.loc">United Indian School, Kuwait</span>
+              </div>
+            </div>
+
+            <!-- Audio Greeting Button (Speech Synthesis) -->
+            <button id="audioGreetingBtn" class="audio-greet-btn" title="Listen to French greeting">
+              <span class="audio-icon">🔊</span>
+              <span id="audioGreetText" data-i18n="hero.audio">Listen in French: "Bonjour !"</span>
+            </button>
+
+            <!-- Floating Micro Badges -->
+            <div class="floating-badge badge-top-left">
+              <span class="badge-emoji">🇫🇷</span>
+              <span>DELF B2 · DALF C1</span>
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              <span class="badge-emoji">🤖</span>
+              <span>AI & EdTech Lead</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK STATS BAR -->
+  <section class="stats-ribbon">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">8th · 9th · 10th</span>
+        <span class="stat-label" data-i18n="stats.cbse">CBSE Curriculum Classes</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">B2 / C1</span>
+        <span class="stat-label" data-i18n="stats.cefr">CEFR French Proficiency</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">Lille, France</span>
+        <span class="stat-label" data-i18n="stats.exchange">European Immersion Alum</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label" data-i18n="stats.tech">Tech-Integrated Pedagogy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & PEDAGOGICAL PHILOSOPHY -->
+  <section class="section-padding about-section" id="about">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="about.tag">Profil Professionnel</span>
+        <h2 class="section-title" data-i18n="about.title">Passionate French Educator & EdTech Creator</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-panel">
+          <div class="card-icon-badge">🎯</div>
+          <h3 data-i18n="about.c1.title">Pedagogical Vision</h3>
+          <p data-i18n="about.c1.desc">
+            Language education thrives when rigorous linguistic foundations meet modern, engaging pedagogical delivery. Having completed my Master's at Pondicherry University and an exchange semester at Université de Lille, I cultivate communicative confidence, cultural curiosity, and examination excellence across CBSE Grades 8, 9, and 10.
+          </p>
+        </div>
+
+        <div class="about-card glass-panel highlight-border">
+          <div class="card-icon-badge">💡</div>
+          <h3 data-i18n="about.c2.title">Integrating AI & Educational Technology</h3>
+          <p data-i18n="about.c2.desc">
+            Rather than relying solely on traditional static textbooks, I engineer custom web applications, gamified grammar simulators, and AI-accelerated study aids. In every classroom, technology transforms abstract French verb conjugations and syntactical rules into intuitive, interactive experiences for students.
+          </p>
+        </div>
+
+        <div class="about-card glass-panel">
+          <div class="card-icon-badge">🌐</div>
+          <h3 data-i18n="about.c3.title">Translation & Cultural Nuance</h3>
+          <p data-i18n="about.c3.desc">
+            With formal training in literary and pragmatic translation (English to French), I equip students with a deep appreciation for francophone culture, idioms, and accurate pronunciation, preparing them not just for CBSE board exams, but for global communication and DELF certifications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED EDTECH & AI SHOWCASE -->
+  <section class="section-padding edtech-section" id="edtech">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag tag-cyan" data-i18n="edtech.tag">Technologie & Innovation</span>
+        <h2 class="section-title" data-i18n="edtech.title">Interactive EdTech & AI French Platforms</h2>
+        <p class="section-subtitle" data-i18n="edtech.subtitle">
+          Explore specialized software, web applications, and digital pedagogical tools engineered by Visha V to elevate classroom learning.
+        </p>
+        <div class="title-underline underline-cyan"></div>
+      </div>
+
+      <!-- MAIN FEATURED APP CARD -->
+      <div class="featured-project-card glass-panel">
+        <div class="project-card-header">
+          <div class="project-badge-row">
+            <span class="badge badge-featured">⭐ Featured Web Application</span>
+            <span class="badge badge-tech">Vanilla JS & CSS</span>
+            <span class="badge badge-curriculum">CBSE Class 10 French</span>
+            <span class="badge badge-a11y">A11y Optimized</span>
+          </div>
+          <h3 class="project-title">Master Grammar App — CBSE Class 10 French</h3>
+          <p class="project-desc" data-i18n="edtech.appDesc">
+            A comprehensive, high-performance interactive French grammar and verb conjugation web application engineered for CBSE Class 10 students. Features timeline visualization of all French tenses, rule-breakdown engines, interactive student selection randomizers for classroom engagement, and accessibility-first design.
+          </p>
+        </div>
+
+        <!-- Embedded Interactive Feature Highlights Grid -->
+        <div class="project-features-grid">
+          <div class="feature-box">
+            <div class="feature-icon">⏳</div>
+            <h4>Timeline of Tenses</h4>
+            <p>Chronological visual breakdown of Past (Passé composé, Imparfait, PQP), Present, and Future (Futur simple, Futur antérieur, Conditionnel).</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">🎲</div>
+            <h4>Classroom "Pick a Student"</h4>
+            <p>Gamified student participation tool directly integrated into the teaching workflow for randomized verbal drills.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">📐</div>
+            <h4>Formula & Group Engine</h4>
+            <p>Instant identification of 1st, 2nd, and 3rd verb groups with colour-coded stems and endings for CBSE Section C question mastery.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon">⚡</div>
+            <h4>Zero-Lag Embedded Fonts</h4>
+            <p>Zero external font network calls via embedded base64 assets, ensuring blazing fast offline readiness on classroom smartboards.</p>
+          </div>
+        </div>
+
+        <!-- Live Links and Interactive Sandbox Trigger -->
+        <div class="project-footer">
+          <div class="project-actions">
+            <a href="https://vvisha48-a11y.github.io/french10/docs/app.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="launchLiveAppBtn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span data-i18n="edtech.launchLive">Launch Official French 10 Web App ↗</span>
+            </a>
+            <a href="https://github.com/vvisha48-a11y" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub: vvisha48-a11y</span>
+            </a>
+          </div>
+          <div class="project-url-copy">
+            <code>https://vvisha48-a11y.github.io/french10/docs/app.html</code>
+            <button class="copy-url-btn" onclick="navigator.clipboard.writeText('https://vvisha48-a11y.github.io/french10/docs/app.html'); this.textContent='Copied! ✓'; setTimeout(()=>this.textContent='Copy', 2000);">Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- INTERACTIVE MINI-GRAMMAR LAB (LIVE EMBEDDED DEMO!) -->
+      <div class="demo-sandbox-card glass-panel">
+        <div class="sandbox-header">
+          <div class="sandbox-title-wrap">
+            <span class="sandbox-indicator">⚡ LIVE DEMO LAB</span>
+            <h3 data-i18n="edtech.sandboxTitle">Interactive French Verb Simulator</h3>
+            <p data-i18n="edtech.sandboxSubtitle">Experience how Visha transforms French tense mechanics into an interactive visual learning tool:</p>
+          </div>
+          <!-- Verbs Selector -->
+          <div class="verb-selector-pills">
+            <button class="verb-pill active" data-verb="parler">Parler (To Speak - 1st Grp)</button>
+            <button class="verb-pill" data-verb="finir">Finir (To Finish - 2nd Grp)</button>
+            <button class="verb-pill" data-verb="aller">Aller (To Go - Irregular)</button>
+          </div>
+        </div>
+
+        <!-- Tense Switcher Tabs -->
+        <div class="tense-tabs-bar">
+          <button class="tense-tab active" data-tense="present">Présent</button>
+          <button class="tense-tab" data-tense="passe_compose">Passé Composé</button>
+          <button class="tense-tab" data-tense="imparfait">Imparfait</button>
+          <button class="tense-tab" data-tense="futur_simple">Futur Simple</button>
+          <button class="tense-tab" data-tense="conditionnel">Conditionnel</button>
+          <button class="tense-tab" data-tense="subjonctif">Subjonctif</button>
+        </div>
+
+        <!-- Dynamic Conjugation Board -->
+        <div class="conjugation-board" id="conjugationBoard">
+          <!-- Populated by script.js -->
+        </div>
+
+        <div class="sandbox-footnote">
+          <span class="formula-callout" id="formulaCallout">💡 Formula: Radical (Par-) + Terminaisons (-e, -es, -e, -ons, -ez, -ent)</span>
+        </div>
+      </div>
+
+      <!-- ADDITIONAL EDTECH INNOVATION CARDS -->
+      <div class="edtech-subcards-grid">
+        <div class="subcard glass-panel">
+          <div class="subcard-icon">🧠</div>
+          <h4 data-i18n="edtech.sub1.title">AI-Powered CBSE Question Bank Engine</h4>
+          <p data-i18n="edtech.sub1.desc">
+            Created tailored question generation prompts and verification workflows based on CBSE Class 9 & 10 Entre Jeunes curricula, synthesizing Section A (Comprehension), Section B (Writing), Section C (Grammar), and Section D (Culture) mock tests.
+          </p>
+        </div>
+
+        <div class="subcard glass-panel">
+          <div class="subcard-icon">📊</div>
+          <h4 data-i18n="edtech.sub2.title">Interactive Presentation Deck Engines</h4>
+          <p data-i18n="edtech.sub2.desc">
+            Constructed standalone 100vw × 100vh web presentation engines featuring step-by-step formula labs, dynamic verb stem highlights, sound FX, and 3D flippable flashcards for engaging classroom lectures.
+          </p>
+        </div>
+
+        <div class="subcard glass-panel">
+          <div class="subcard-icon">📚</div>
+          <h4 data-i18n="edtech.sub3.title">Publication-Grade Digital Study Guides</h4>
+          <p data-i18n="edtech.sub3.desc">
+            Developed print-optimized master study guides with trap alerts, golden rules, and comparative matrices, formatted for crystal-clear readability both on mobile screens and in print.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EMPLOYMENT & TEACHING EXPERIENCE -->
+  <section class="section-padding experience-section" id="experience">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="exp.tag">Parcours Professionnel</span>
+        <h2 class="section-title" data-i18n="exp.title">Teaching & Professional Experience</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="timeline">
+        <!-- ROLE 1: United Indian School, Kuwait -->
+        <div class="timeline-item timeline-current">
+          <div class="timeline-marker">
+            <span class="marker-dot current-pulse"></span>
+          </div>
+          <div class="timeline-content glass-panel highlight-border">
+            <div class="timeline-header">
+              <div>
+                <span class="badge badge-current" data-i18n="exp.r1.badge">PRESENT ROLE · KUWAIT 🇰🇼</span>
+                <h3 class="role-title" data-i18n="exp.r1.title">French Teacher (CBSE Grades 8, 9, 10)</h3>
+                <h4 class="organization-name">United Indian School, Kuwait</h4>
+              </div>
+              <div class="timeline-date">
+                <span class="date-tag">Jan 2026 — Present</span>
+              </div>
+            </div>
+
+            <ul class="timeline-responsibilities">
+              <li data-i18n="exp.r1.p1"><strong>Instructional Leadership:</strong> Delivering comprehensive CBSE French curriculum for middle and secondary school students across 8th, 9th, and 10th grades.</li>
+              <li data-i18n="exp.r1.p2"><strong>EdTech & AI Integration:</strong> Embedding proprietary interactive web software, digital verb timelines, and quiz engines directly into daily classroom pedagogy to dramatically boost engagement.</li>
+              <li data-i18n="exp.r1.p3"><strong>Examination Preparation:</strong> Designing structured Section A through Section D revision modules, past-paper analysis, and board exam strategy sessions.</li>
+              <li data-i18n="exp.r1.p4"><strong>Cultural Immersion:</strong> Fostering enthusiasm for Francophone literature, music, cuisine, and global career pathways in European languages.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span>CBSE Curriculum</span>
+              <span>Class 8, 9, 10</span>
+              <span>Entre Jeunes 1 & 2</span>
+              <span>EdTech Integration</span>
+              <span>Classroom Tech</span>
+              <span>Kuwait</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ROLE 2: New Horizon International School, Bengaluru -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+          </div>
+          <div class="timeline-content glass-panel">
+            <div class="timeline-header">
+              <div>
+                <span class="badge badge-past">BENGALURU, INDIA 🇮🇳</span>
+                <h3 class="role-title" data-i18n="exp.r2.title">French Teacher (CBSE Curriculum)</h3>
+                <h4 class="organization-name">New Horizon International School, Bengaluru</h4>
+              </div>
+              <div class="timeline-date">
+                <span class="date-tag">May 2025 — Oct 2025</span>
+              </div>
+            </div>
+
+            <ul class="timeline-responsibilities">
+              <li data-i18n="exp.r2.p1"><strong>Curriculum Implementation:</strong> Executed CBSE lesson plans focused on building foundational listening, speaking, reading, and writing competencies.</li>
+              <li data-i18n="exp.r2.p2"><strong>F.L.E. Methodologies:</strong> Applied modern French as a Foreign Language (Français Langue Étrangère) strategies tailored to young learners.</li>
+              <li data-i18n="exp.r2.p3"><strong>Differentiated Instruction:</strong> Created remedial worksheets and accelerated enrichment exercises to accommodate diverse learning speeds.</li>
+              <li data-i18n="exp.r2.p4"><strong>Collaborative Planning:</strong> Coordinated with academic coordinators and language faculty for seamless term evaluations.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span>CBSE Curriculum</span>
+              <span>F.L.E. Pedagogy</span>
+              <span>Lesson Planning</span>
+              <span>Student Engagement</span>
+              <span>Bengaluru</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & GLOBAL IMMERSION -->
+  <section class="section-padding education-section" id="education">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="edu.tag">Formation Académique</span>
+        <h2 class="section-title" data-i18n="edu.title">Academic Education & Global Studies</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="education-grid">
+        <!-- Master's Degree -->
+        <div class="edu-card glass-panel highlight-border">
+          <div class="edu-card-top">
+            <div class="edu-badge">Master's Degree</div>
+            <span class="edu-year">Sep 2023 — Apr 2025</span>
+          </div>
+          <h3 class="edu-degree" data-i18n="edu.m.deg">M.A. French (Translation & Interpretation)</h3>
+          <h4 class="edu-institution" data-i18n="edu.m.inst">Pondicherry University, Pondicherry, India</h4>
+          <p class="edu-desc" data-i18n="edu.m.desc">
+            Completed in May 2025 with extensive mastery in literary, commercial, and technical translation, advanced linguistic morphology, Francophone civilizations, and pedagogical theory for foreign language teaching.
+          </p>
+          <div class="edu-highlights">
+            <span>✓ Translation & Interpretation</span>
+            <span>✓ Advanced French Syntax</span>
+            <span>✓ F.L.E. Pedagogy</span>
+          </div>
+        </div>
+
+        <!-- Exchange Program Lille, France -->
+        <div class="edu-card glass-panel france-card">
+          <div class="edu-card-top">
+            <div class="edu-badge france-badge">🇫🇷 European Exchange</div>
+            <span class="edu-year">Jan 2022 — Jul 2022</span>
+          </div>
+          <h3 class="edu-degree" data-i18n="edu.e.deg">Exchange Program in Translation Studies</h3>
+          <h4 class="edu-institution" data-i18n="edu.e.inst">Université de Lille, Lille, France</h4>
+          <p class="edu-desc" data-i18n="edu.e.desc">
+            Semester-long full academic immersion in France. Specialized in European translation paradigms, linguistic nuances, colloquial French idioms, and authentic cross-cultural pedagogical methods.
+          </p>
+          <div class="edu-highlights">
+            <span>✓ Full Cultural Immersion</span>
+            <span>✓ European Academic Credit</span>
+            <span>✓ Native-Speaker Exposure</span>
+          </div>
+        </div>
+
+        <!-- Bachelor's Degree -->
+        <div class="edu-card glass-panel">
+          <div class="edu-card-top">
+            <div class="edu-badge">Bachelor's Degree</div>
+            <span class="edu-year">Jun 2020 — May 2023</span>
+          </div>
+          <h3 class="edu-degree" data-i18n="edu.b.deg">B.A. French Literature</h3>
+          <h4 class="edu-institution" data-i18n="edu.b.inst">Loyola College, Chennai, India</h4>
+          <p class="edu-desc" data-i18n="edu.b.desc">
+            Rigorous undergraduate foundation in classical and contemporary French literature, French phonetics, grammar, and early research into teaching French as a foreign language.
+          </p>
+          <div class="edu-highlights">
+            <span>✓ French Literary Classics</span>
+            <span>✓ French Phonetics & Diction</span>
+            <span>✓ Loyola College Alum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES & DIPLOMAS -->
+  <section class="section-padding cert-section" id="certifications">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="cert.tag">Diplômes & Certifications</span>
+        <h2 class="section-title" data-i18n="cert.title">Official French Diplomas (CEFR)</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="cert-grid">
+        <!-- DELF B2 -->
+        <div class="cert-card glass-panel highlight-border">
+          <div class="cert-icon-wrap">
+            <span class="cert-cefr">B2</span>
+          </div>
+          <div class="cert-info">
+            <div class="cert-issuer">France Éducation International</div>
+            <h3 class="cert-title">DELF B2 — Diplôme d'Études en Langue Française</h3>
+            <p class="cert-date">Certified: <strong>September 2024</strong></p>
+            <p class="cert-desc" data-i18n="cert.b2.desc">
+              Demonstrates independent user proficiency: fluent argumentative reasoning, spontaneous conversation, academic text analysis, and professional oral fluency in French.
+            </p>
+          </div>
+        </div>
+
+        <!-- DELF B1 -->
+        <div class="cert-card glass-panel">
+          <div class="cert-icon-wrap">
+            <span class="cert-cefr">B1</span>
+          </div>
+          <div class="cert-info">
+            <div class="cert-issuer">France Éducation International</div>
+            <h3 class="cert-title">DELF B1 — Diplôme d'Études en Langue Française</h3>
+            <p class="cert-date">Certified: <strong>March 2023</strong></p>
+            <p class="cert-desc" data-i18n="cert.b1.desc">
+              Validated ability to maintain interaction, understand factual texts, express opinions, and handle unfamiliar situations in a Francophone environment.
+            </p>
+          </div>
+        </div>
+
+        <!-- DALF C1 Pursuing -->
+        <div class="cert-card glass-panel in-progress-card">
+          <div class="cert-icon-wrap progress-wrap">
+            <span class="cert-cefr">C1</span>
+          </div>
+          <div class="cert-info">
+            <div class="cert-issuer">Alliance Française</div>
+            <h3 class="cert-title">DALF C1 (Pursuing / En Cours)</h3>
+            <p class="cert-date">Status: <strong>Actively Pursuing at Alliance Française</strong></p>
+            <p class="cert-desc" data-i18n="cert.c1.desc">
+              Advanced proficient user level: fluent, well-structured discourse, synthesizing complex literary and technical texts, and mastering fine stylistic nuances.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CEFR SCALE VISUALIZER -->
+      <div class="cefr-scale-card glass-panel">
+        <h4 data-i18n="cert.scaleTitle">CEFR Global Language Framework Reference</h4>
+        <div class="cefr-scale">
+          <div class="cefr-level">
+            <span class="lvl-tag">A1</span>
+            <small>Discovery</small>
+          </div>
+          <div class="cefr-level">
+            <span class="lvl-tag">A2</span>
+            <small>Survival</small>
+          </div>
+          <div class="cefr-level active-level">
+            <span class="lvl-tag">B1 ✓</span>
+            <small>Threshold (2023)</small>
+          </div>
+          <div class="cefr-level active-level highlight-active">
+            <span class="lvl-tag">B2 ✓</span>
+            <small>Fluent / Indep. (2024)</small>
+          </div>
+          <div class="cefr-level in-progress-level">
+            <span class="lvl-tag">C1 ⏳</span>
+            <small>Pursuing AF</small>
+          </div>
+          <div class="cefr-level">
+            <span class="lvl-tag">C2</span>
+            <small>Mastery</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS & RESEARCH -->
+  <section class="section-padding projects-section" id="projects">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="proj.tag">Recherches & Traductions</span>
+        <h2 class="section-title" data-i18n="proj.title">Academic & Translation Projects</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: EdTech App -->
+        <div class="project-item glass-panel highlight-border">
+          <div class="proj-top-bar">
+            <span class="proj-type">EdTech & AI Software</span>
+            <span class="proj-date">2025 — Present</span>
+          </div>
+          <h3 class="proj-title">French 10 Interactive Learning Suite</h3>
+          <p class="proj-inst">Deployed on GitHub Pages (<a href="https://vvisha48-a11y.github.io/french10/docs/app.html" target="_blank" rel="noopener noreferrer">Live Demo</a>)</p>
+          <p class="proj-desc" data-i18n="proj.p1.desc">
+            Engineered an offline-first, highly responsive web application equipped with dynamic tense timelines, verb formula generators, interactive classroom student pickers, and CBSE Section C question drills.
+          </p>
+          <div class="proj-tech">
+            <span>JavaScript</span>
+            <span>HTML5/CSS3</span>
+            <span>CBSE Pedagogy</span>
+            <span>EdTech</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Literary Translation -->
+        <div class="project-item glass-panel">
+          <div class="proj-top-bar">
+            <span class="proj-type">Literary Translation</span>
+            <span class="proj-date">Apr 2025</span>
+          </div>
+          <h3 class="proj-title">Translation of English Short Stories into French</h3>
+          <p class="proj-inst">Pondicherry University, Department of French</p>
+          <p class="proj-desc" data-i18n="proj.p2.desc">
+            Undertook nuanced translation of selected English short fiction into French, preserving narrative cadence, dialogue realism, idiomatic humor, and stylistic register under faculty supervision.
+          </p>
+          <div class="proj-tech">
+            <span>Literary Translation</span>
+            <span>Stylistic Registers</span>
+            <span>Syntax Mapping</span>
+          </div>
+        </div>
+
+        <!-- Project 3: FLE Teaching Studies -->
+        <div class="project-item glass-panel">
+          <div class="proj-top-bar">
+            <span class="proj-type">Pedagogical Research</span>
+            <span class="proj-date">Apr 2023</span>
+          </div>
+          <h3 class="proj-title">Studies on Teaching French as a Foreign Language (F.L.E.)</h3>
+          <p class="proj-inst">Loyola College, Chennai</p>
+          <p class="proj-desc" data-i18n="proj.p3.desc">
+            Researched communicative and task-based language teaching (TBLT) methods specifically adapted for Indian school students learning French, exploring barriers in pronunciation and grammatical transfer.
+          </p>
+          <div class="proj-tech">
+            <span>F.L.E. Methodology</span>
+            <span>Second Language Acquisition</span>
+            <span>Pedagogical Action</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS & COMPETENCIES MATRIX -->
+  <section class="section-padding skills-section" id="skills">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="skills.tag">Compétences Clés</span>
+        <h2 class="section-title" data-i18n="skills.title">Skills & Capabilities Matrix</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="skills-matrix-grid">
+        <!-- Linguistic Mastery -->
+        <div class="skill-category-card glass-panel">
+          <div class="cat-header">
+            <span class="cat-icon">🗣️</span>
+            <h3 data-i18n="skills.ling.title">Linguistic Proficiency</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>French (Français)</span>
+                <strong>DELF B2 / C1 Pursuing</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-95"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>English</span>
+                <strong>Fluent / Professional</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-90"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>Tamil</span>
+                <strong>Native Language</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-100"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pedagogical Skills -->
+        <div class="skill-category-card glass-panel">
+          <div class="cat-header">
+            <span class="cat-icon">👩‍🏫</span>
+            <h3 data-i18n="skills.ped.title">Teaching & Pedagogy</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>CBSE French (8th, 9th, 10th)</span>
+                <strong>Expert</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-95"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>Lesson Planning & Curriculum Design</span>
+                <strong>Advanced</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-90"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>Classroom Adaptability & Teamwork</span>
+                <strong>Mastered</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-95"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech & AI Innovation -->
+        <div class="skill-category-card glass-panel highlight-border">
+          <div class="cat-header">
+            <span class="cat-icon">💻</span>
+            <h3 data-i18n="skills.tech.title">Technology & AI in Education</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>Interactive Web App Dev (HTML/CSS/JS)</span>
+                <strong>Advanced</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-90"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>AI Prompting & Digital Curriculum Engineering</span>
+                <strong>Expert</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-92"></div></div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-info">
+                <span>Smartboard & Multimedia Presentation Engines</span>
+                <strong>Mastered</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill fill-95"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFICIAL CV QUICK VIEW MODAL (PRINT & DOWNLOAD READY) -->
+  <div class="modal-overlay" id="cvModalOverlay" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle">
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <h2 id="cvModalTitle">Curriculum Vitae — Visha V</h2>
+          <span class="modal-badge">Updated October 2026</span>
+        </div>
+        <div class="modal-header-actions">
+          <button id="printCvBtn" class="btn btn-primary btn-sm" title="Print or save as PDF">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print / Save PDF</span>
+          </button>
+          <button id="closeCvModal" class="modal-close-btn" aria-label="Close CV Modal">&times;</button>
+        </div>
+      </div>
+
+      <!-- Printable Resume Body -->
+      <div class="modal-body print-resume-body" id="printResumeContent">
+        <!-- Resume Header -->
+        <div class="cv-paper-header">
+          <div class="cv-header-left">
+            <h1 class="cv-name">Visha V</h1>
+            <p class="cv-headline">French Teacher & EdTech Innovator · Enseignant de Français (CBSE)</p>
+            <div class="cv-meta-row">
+              <span>📧 vvisha48@gmail.com</span>
+              <span>📱 (+91) 6385544813</span>
+              <span>📍 Kuwait / Tamil Nadu, India</span>
+              <span>🌐 github.com/vvisha48-a11y</span>
+            </div>
+          </div>
+          <div class="cv-header-right">
+            <img src="avatar.jpg" alt="Visha V" class="cv-print-avatar">
+          </div>
+        </div>
+
+        <hr class="cv-rule">
+
+        <!-- Profile Summary -->
+        <div class="cv-section">
+          <h3 class="cv-section-title">PROFILE</h3>
+          <p class="cv-text">
+            Passionate and dedicated Master's graduate in French from Pondicherry University (May 2025), with a strong focus on French culture, translation, interpretation, and educational technology. Fluent in French with a B2 proficiency level and currently pursuing C1 at Alliance Française. Experienced in teaching CBSE French at school levels (Grades 8, 9, 10). Pioneer in integrating proprietary interactive software, web apps, and AI-accelerated study aids into everyday classroom instruction.
+          </p>
+        </div>
+
+        <!-- Employment -->
+        <div class="cv-section">
+          <h3 class="cv-section-title">EMPLOYMENT HISTORY</h3>
+          
+          <div class="cv-job">
+            <div class="cv-job-top">
+              <strong>French Teacher (CBSE Grades 8, 9, 10)</strong>
+              <span>Jan 2026 — Present</span>
+            </div>
+            <div class="cv-job-company">United Indian School, Kuwait</div>
+            <ul class="cv-bullets">
+              <li>Teaching French for Grades 8, 9, and 10 adhering strictly to CBSE curriculum and Entre Jeunes frameworks.</li>
+              <li>Pioneered technology-integrated classrooms using bespoke grammar apps and digital quizzes for enhanced student learning.</li>
+              <li>Mentoring students toward board examination excellence and cultural fluency.</li>
+            </ul>
+          </div>
+
+          <div class="cv-job">
+            <div class="cv-job-top">
+              <strong>French Teacher (CBSE Curriculum)</strong>
+              <span>May 2025 — Oct 2025</span>
+            </div>
+            <div class="cv-job-company">New Horizon International School, Bengaluru, India</div>
+            <ul class="cv-bullets">
+              <li>Planned and delivered interactive CBSE French classes with strong emphasis on FLE methodologies.</li>
+              <li>Designed tailored evaluation materials and enriched cultural language clubs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="cv-section">
+          <h3 class="cv-section-title">EDUCATION</h3>
+          <div class="cv-job">
+            <div class="cv-job-top">
+              <strong>M.A. French (Translation and Interpretation)</strong>
+              <span>Sep 2023 — Apr 2025</span>
+            </div>
+            <div class="cv-job-company">Pondicherry University, Pondicherry, India (Completed in May 2025)</div>
+          </div>
+          <div class="cv-job">
+            <div class="cv-job-top">
+              <strong>Exchange Program in Translation Studies</strong>
+              <span>Jan 2022 — Jul 2022</span>
+            </div>
+            <div class="cv-job-company">Université de Lille, Lille, France</div>
+          </div>
+          <div class="cv-job">
+            <div class="cv-job-top">
+              <strong>B.A. French Literature</strong>
+              <span>Jun 2020 — May 2023</span>
+            </div>
+            <div class="cv-job-company">Loyola College, Chennai, India</div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="cv-section">
+          <h3 class="cv-section-title">CERTIFICATES & DIPLOMAS</h3>
+          <ul class="cv-bullets">
+            <li><strong>DALF C1:</strong> Currently Pursuing at Alliance Française</li>
+            <li><strong>DELF B2:</strong> Diplôme d'Études en Langue Française (Sep 2024, France Éducation International)</li>
+            <li><strong>DELF B1:</strong> Diplôme d'Études en Langue Française (Mar 2023, France Éducation International)</li>
+          </ul>
+        </div>
+
+        <!-- Projects & Tech -->
+        <div class="cv-section">
+          <h3 class="cv-section-title">PROJECTS & EDTECH INNOVATION</h3>
+          <ul class="cv-bullets">
+            <li><strong>Master Grammar App — CBSE Class 10 French:</strong> Live interactive web software with verb timelines, formula labs, and student pickers. (URL: https://vvisha48-a11y.github.io/french10/docs/app.html)</li>
+            <li><strong>Translation of Short Stories (English into French):</strong> Pondicherry University (Apr 2025).</li>
+            <li><strong>Studies on Teaching French as a Foreign Language (F.L.E.):</strong> Loyola College (Apr 2023).</li>
+          </ul>
+        </div>
+
+        <!-- Skills & Personal Details -->
+        <div class="cv-section cv-details-grid">
+          <div>
+            <h3 class="cv-section-title">SKILLS</h3>
+            <p class="cv-text">Lesson Planning · CBSE Curriculum · FLE Pedagogy · EdTech & AI Integration · Interactive Web Design · Adaptability · Teamwork</p>
+          </div>
+          <div>
+            <h3 class="cv-section-title">LANGUAGES & DETAILS</h3>
+            <p class="cv-text">French (B2 Certified, C1 Pursuing) · English (Fluent) · Tamil (Native)<br>Date of Birth: 06.05.2002</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section-padding contact-section" id="contact">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="contact.tag">Prendre Contact</span>
+        <h2 class="section-title" data-i18n="contact.title">Get In Touch & Collaborate</h2>
+        <p class="section-subtitle" data-i18n="contact.subtitle">
+          Interested in educational collaboration, teaching opportunities, or EdTech innovation? Let's connect!
+        </p>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Cards -->
+        <div class="contact-info-column">
+          <!-- Email Card -->
+          <a href="mailto:vvisha48@gmail.com" class="contact-card glass-panel">
+            <div class="contact-card-icon">✉️</div>
+            <div>
+              <span class="contact-label">Email Address</span>
+              <strong class="contact-value">vvisha48@gmail.com</strong>
+            </div>
+            <span class="contact-action-arrow">↗</span>
+          </a>
+
+          <!-- WhatsApp & Phone Card -->
+          <a href="https://wa.me/916385544813" target="_blank" rel="noopener noreferrer" class="contact-card glass-panel">
+            <div class="contact-card-icon">💬</div>
+            <div>
+              <span class="contact-label">WhatsApp / Phone</span>
+              <strong class="contact-value">(+91) 6385544813</strong>
+            </div>
+            <span class="contact-action-arrow">↗</span>
+          </a>
+
+          <!-- Location Card -->
+          <div class="contact-card glass-panel">
+            <div class="contact-card-icon">📍</div>
+            <div>
+              <span class="contact-label">Current Location</span>
+              <strong class="contact-value">United Indian School, Kuwait</strong>
+              <small class="contact-sub">Origin: Dindigul, Tamil Nadu, India</small>
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <a href="https://github.com/vvisha48-a11y" target="_blank" rel="noopener noreferrer" class="contact-card glass-panel">
+            <div class="contact-card-icon">💻</div>
+            <div>
+              <span class="contact-label">GitHub Portfolio & EdTech</span>
+              <strong class="contact-value">vvisha48-a11y</strong>
+            </div>
+            <span class="contact-action-arrow">↗</span>
+          </a>
+        </div>
+
+        <!-- Quick Interactive Message Card -->
+        <div class="contact-form-column glass-panel">
+          <h3 data-i18n="contact.formTitle">Send a Direct Message</h3>
+          <p class="form-desc" data-i18n="contact.formDesc">Choose your preferred channel to send a message directly to Visha V:</p>
+
+          <form id="contactForm" onsubmit="event.preventDefault(); sendQuickMessage();">
+            <div class="form-group">
+              <label for="senderName" data-i18n="contact.nameLabel">Your Name / School / Organization</label>
+              <input type="text" id="senderName" class="form-input" placeholder="e.g. Principal / Academic Director / Student" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderSubject" data-i18n="contact.subjectLabel">Topic of Discussion</label>
+              <input type="text" id="senderSubject" class="form-input" placeholder="e.g. CBSE French Curriculum / EdTech Demo" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage" data-i18n="contact.messageLabel">Your Message</label>
+              <textarea id="senderMessage" class="form-input" rows="4" placeholder="Bonjour Visha, I would like to discuss..." required></textarea>
+            </div>
+
+            <div class="form-actions-row">
+              <button type="submit" class="btn btn-primary btn-full">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span data-i18n="contact.sendEmail">Compose Email</span>
+              </button>
+              <button type="button" class="btn btn-whatsapp btn-full" onclick="sendWhatsAppMessage();">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.971.53 1.83.81 2.801.81 3.181 0 5.767-2.586 5.767-5.766.001-3.182-2.585-5.767-5.772-5.767zm0 10.354c-.87 0-1.684-.24-2.392-.676l-.171-.102-1.777.466.474-1.733-.112-.178c-.469-.747-.716-1.558-.716-2.365 0-2.529 2.057-4.587 4.587-4.587 2.531 0 4.589 2.058 4.589 4.587 0 2.53-2.058 4.588-4.589 4.588z"/>
+                </svg>
+                <span data-i18n="contact.sendWa">Send via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-avatar-mini">
+            <img src="avatar.jpg" alt="Visha V" width="36" height="36">
+          </div>
+          <div>
+            <span class="footer-name">Visha V</span>
+            <p class="footer-desc">French Educator & EdTech Creator · United Indian School, Kuwait</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#edtech" data-i18n="nav.edtech">EdTech & AI</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Visha V. All rights reserved. Built with passion for the French Language & EdTech Innovation.</p>
+        <div class="footer-tricolor">
+          <span class="ft-b"></span>
+          <span class="ft-w"></span>
+          <span class="ft-r"></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Javascript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
